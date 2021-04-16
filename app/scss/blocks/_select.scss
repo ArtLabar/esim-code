@@ -1,0 +1,54 @@
+.select{
+    padding: 120px 0 140px;
+}
+
+.select__title{
+    max-width: 430px;
+}
+
+.select__text{
+    margin-top: 26px;
+}
+
+.select__list{
+    display: flex;
+    flex-wrap: wrap;
+    color: $white;
+    margin-top: 64px;
+}
+
+.select__list-item{
+    min-width: 272px;
+    min-height: 419px;
+    margin-right: 68px;
+    margin-top: 25px;
+    background-color: $black;
+    position: relative;
+
+    a{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        position: absolute;
+        left: 20px;
+        bottom: 28px;
+    }
+}
+
+.select__list-item--operators{
+    background-image: url('../images/operators.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.select__list-item--manufactures{
+    background-image: url('../images/manufactures.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.select__list-item--distributors{
+    background-image: url('../images/distributors.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
